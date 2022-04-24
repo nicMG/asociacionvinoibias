@@ -4,17 +4,20 @@ import "./Feria.css";
 function Feria() {
   return (
     <div>
-      <h1 id="Feria">LA FERIA</h1>
       <div className="feria-main">
         <img
           src="https://res.cloudinary.com/dlccskpp5/image/upload/v1650793888/FIESTA_DEL_VINO_wmiypi.jpg"
           alt="main"
         />
-        <div>
+
+        <div className="feria-box">
+          <h1 id="Feria">LA FERIA</h1>
+          <hr></hr>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry. Lorem Ipsum has been the industry's standard dummy text
-            ever since the 1500s, when an unknown printer took a galley of type
+            <strong>(Aqui ponemos algo si quereis o lo quito)</strong> Lorem
+            Ipsum is simply dummy text of the printing and typesetting industry.
+            Lorem Ipsum has been the industry's standard dummy text ever since
+            the 1500s, when an unknown printer took a galley of type
           </p>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting

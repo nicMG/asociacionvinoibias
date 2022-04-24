@@ -1,8 +1,15 @@
 .feria-main {
+  background-color: #0b5350;
+  color: #f7edb7;
   margin: 10px;
   /* border: black 2px solid; */
   display: flex;
-  padding: 10px;
+  padding: 5rem;
+  margin-bottom: 10vh;
+}
+
+.feria-box > h1 {
+  color: #d15f54;
 }
 
 .feria-main img {
@@ -10,11 +17,22 @@
   /* border: black 0.5vw solid; */
 }
 
-.feria-media {
+.feria-box {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
+  padding: 15px;
 }
 
-.feria-media div {
-  border: black 2px solid;
+.feria-box strong {
+  color: #d15f54;
 }
+
+/* .feria-media {
+  display: flex;
+  justify-content: space-around;
+} */
+
+/* .feria-media div {
+  border: black 2px solid;
+} */
