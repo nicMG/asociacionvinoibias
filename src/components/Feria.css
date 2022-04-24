@@ -1,0 +1,20 @@
+.feria-main {
+  margin: 10px;
+  /* border: black 2px solid; */
+  display: flex;
+  padding: 10px;
+}
+
+.feria-main img {
+  width: 25vw;
+  /* border: black 0.5vw solid; */
+}
+
+.feria-media {
+  display: flex;
+  justify-content: space-around;
+}
+
+.feria-media div {
+  border: black 2px solid;
+}

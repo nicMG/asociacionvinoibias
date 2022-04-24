@@ -1,0 +1,48 @@
+.vina-all {
+  margin-top: 25rem;
+}
+
+.vina-all > h1 {
+  font-size: 50px;
+  font-weight: 800;
+  margin-bottom: 15rem;
+}
+
+.vina-item {
+  /* border: black 1px solid; */
+  height: 35vh;
+  margin: 15px;
+  margin-bottom: 17rem;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+.vina-item h1 {
+  font-size: 30px;
+}
+
+.vina-item img {
+  /* border-radius: 15px; */
+  margin: 15px;
+  width: auto;
+  height: 100%;
+}
+
+.vina-box {
+  /* border: red 1px solid; */
+  height: 35vh;
+  margin: 0px 25px;
+  /* border: steelblue 2px solid; */
+  display: flex;
+  overflow: visible;
+  max-height: 20vh;
+  flex-direction: column;
+}
+
+.vina-box p {
+  align-self: center;
+  text-align: justify;
+  font-size: 20px;
+  height: 100%;
+}

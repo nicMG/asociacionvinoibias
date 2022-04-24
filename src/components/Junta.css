@@ -1,0 +1,37 @@
+.junta-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.junta-box {
+  background-color: #0b5350;
+  margin-top: 5vh;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+}
+
+.junta-names {
+  /* margin-left: 25vw; */
+  color: #f7edb7;
+  padding: 5vh 10vh 2vw 2vw;
+}
+
+.junta-names h1 {
+  color: #d15f54;
+  font-weight: bold;
+}
+
+.junta-contacto {
+  margin-top: 10vh;
+  text-align: left;
+}
+
+.junta-contacto h1 {
+  text-decoration: underline;
+}
+
+.junta-contacto ul > li {
+  font-size: 20px;
+  font-weight: 200;
+}

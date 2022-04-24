@@ -1,0 +1,20 @@
+.nav {
+  height: 4vh;
+  display: flex;
+  justify-content: center;
+  /* margin-bottom: 20px; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-img {
+  max-height: 4vh;
+}
+
+.link {
+  text-decoration: none;
+  margin: 0 10px;
+  color: black;
+  font-weight: bold;
+  padding: 0;
+}
